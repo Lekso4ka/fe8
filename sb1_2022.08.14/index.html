@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link:css -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #6f9e80;
+            margin: 0;
+            font-family: sans-serif;
+            margin: 10px;
+        }
+
+        .title h1 {
+            font-size: 25px;
+            color: #ecf0f1;
+            margin: 20px 10px;
+        }
+
+        .info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info li {
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px 5px black;
+            color: #ecf0f1;
+            background-color: #8e44ad;
+        }
+
+        .page {
+            height: 700px;
+        }
+
+
+        #pullover {
+            background-image: url('https://img4.cliparto.com/pic/xl/247008/4945121-knit-woolen-seamless-ethnic-ornament-texture-fabri.jpg');
+            background-size: auto 100%;
+            /* background-size: 100% y */
+        }
+
+        #bike {
+            background-color: darkgreen;
+            background-position: left bottom;
+            background-size: 100px;
+            background-image: url('https://www.publicdomainpictures.net/pictures/290000/nahled/penny-farthing-bicycle.png');
+            background-repeat: no-repeat;
+        }
+
+        #photo {
+            background: center / 100px 100px url('https://d.newsweek.com/en/full/1829968/rick-morty-peace-season-5.webp') no-repeat blue;
+            background: crimson;
+            background: url('https://d.newsweek.com/en/full/1829968/rick-morty-peace-season-5.webp') center / cover;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/36/a1/91/36a19108f3088af7315231dc919b166a.jpg" alt="Картинка">
+        <h3>Солнечные панели Green Robotic</h3>
+        <p>24/7 Мониторинг электроэнергии</p>
+    </div>
+    <section id="about">
+        <div id="prices"></div>
+    </section>
+    <section id="prices" class="dark-background"></section>
+
+    <!-- 
+        Дополнительные материалы
+        https://metanit.com/web/html5/ 
+        https://flexboxfroggy.com/
+        https://www.w3schools.com/cssref/default.asp
+        https://www.w3schools.com/cssref/default.asp
+        https://developer.mozilla.org/ru/
+
+        https://codesandbox.io/
+
+        Идеи для вдохновения - https://dribbble.com/
+        Сайт с картинками - https://unsplash.com/
+    -->
+
+    <!-- Emmet:
+    h1 - тег
+    h1+p+p+div - несколько тегов друг за другом
+    p*5 - создать 5 абзацев
+    (div>h2+p)*5 - заголовок и абзац внутри дива
+    (.card>h2+p)*5 - .card - тег див с классом card
+    h1.caption - добавит класс для тега h1
+    lorem - 20-30 псевдо-слов
+    h2*3>lorem2 - 2 случайных слова
+    p*4>lorem10 - 10 случайных слов
+    p{Свой текст} - текса внутри p -->
+
+    <!-- тралала -->
+
+    <!-- Горячие клавиши:
+    Ctrl - win, Cmd - Mac
+    Alt -> opt
+
+    Ctrl + c - копировать
+    Ctrl + v - вставить
+    Ctrl + x - вырезать
+    Ctrl + z - отменить
+    Ctrl + Shift + z (ctrl + y) - вернуть отмену
+    Ctrl + a - выделить все
+    Ctrl + s - сохранить
+    Ctrl + n - создать новый файл
+    Ctrl + o - открыть (папку/файл)
+
+    Ctrl + / - закомментировать кусок кода
+    Alt + z - разбить строку на несколько подстрок
+    Alt + Shift + стрелка вниз - дублировать строку или выделенный кусок кода -->
+
+    <h1>Экономия на электричестве</h1>
+    <p>Используйте чистую солнечную энергию для питания своего дома: уменьшите зависимость от электросети и счета за
+        электричество.</p>
+
+    <p>Солнечные батареи выгодно устанавливать уже сейчас. В течение срока службы они принесут вам выгоду, примерно в 10
+        раз превышающую их стоимость.</p>
+
+    <p>Инвестиции в солнечные батареи – разумное решение. Такие инвестиции аналогичны инвестициям в меры по
+        энергоэффективности и по уменьшению теплопотерь вашего дома. Любой прибор, которые потребляет меньше энергии,
+        сразу начинает приносить вам деньги за счет экономии энергии. Затраты на дополнительное утепление вашего дома
+        начинают приносить вам сразу экономию на кондиционирование и отопление. В настоящее время многие уже знают, что
+        инвестиции в меры энергоэффективности являются очень умной инвестицией. Мы постарались показать, что инвестиции
+        в солнечные батареи аналогичны.</p>
+
+    <p>Не забывайте также, что кроме экономии от установки солнечных батарей, вы вносите вклад в борьбу с загрязнением
+        окружающей среды и с глобальным потеплением. Это происходит за счет того, что вы уменьшаете потребление энергии
+        от традиционных, экологически грязных, топливных электростанций.</p>
+
+    <p>Солнечные батареи повышают стоимость вашего дома. А в некоторых случаях повышают его привлекательность у
+        покупателей, т.к. даже если повышение стоимости дома будет меньше ваших затрат на солнечную электростанцию на
+        крыше вашего дома, то продать такой "продвинутый" дом будет легче.</p>
+
+    <!-- <table>
+            <tr>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+            </tr>
+            <tr>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+            </tr>
+            <tr>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+                <td>Ячейка</td>
+            </tr>
+        </table> -->
+
+    <div class="title">
+        <h1>Почему вам необходимо приобрести солнечные батареи</h1>
+    </div>
+
+    <div class="info">
+        <ul>
+            <li>Это модно. Все соседи будут завидовать и захотят как у вас.</li>
+            <li>Это выгодно. Можно меньше платить за энергию.</li>
+            <li>Это надежно. Даже если на даче перебои с электричеством у вас всегда есть альтернативный источник.</li>
+            <li>Это экологично. Вы делаете свой вклад в спасение природы.</li>
+        </ul>
+    </div>
+    <section class='page' id='pullover'></section>
+    <section class='page' id='bike'></section>
+    <section class='page' id='photo'></section>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+#about {
+    background-color: blueviolet;
+}
+#prices {
+    background-color: crimson;
+}
+/* #about, #prices */
+#about, #prices {
+    min-height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#about #prices {
+    width: 200px;
+}
+/* #about, .dark-background */
+#about, .dark-background {
+    border: solid 2px;
+}
+
+.card {
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.card img {
+    width: 100%;
+}
